@@ -143,3 +143,21 @@ footer {
     justify-content: center;
   }
 }
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.photo-box {
+    width: 200px;
+    height: 150px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #999;
+    border-radius: 8px;
+}
